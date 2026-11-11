@@ -228,9 +228,3 @@ RouteX is an advanced educational project, not a production-hardened load balanc
 - The admin endpoint has no authentication. It is loopback-only in this implementation.
 - Metrics are in memory and reset when RouteX restarts. CSV logs append but are not rotated automatically.
 - There is no hot configuration reload or advanced circuit breaker.
-
-## Resume bullet
-
-> Built a C++17 TCP load balancer with round-robin and least-connections scheduling, nonblocking bidirectional socket forwarding, periodic backend health checks and failover, per-IP rate limits, JSON connection metrics, CSV session logs, and an integration test for routing and backend failure detection.
-
-Avoid claiming throughput, latency improvement, uptime, or production readiness without measurements and operational evidence.
